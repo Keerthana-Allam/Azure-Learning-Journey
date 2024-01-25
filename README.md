@@ -44,6 +44,29 @@ Centralized File storage: Shared, Hosted in the cloud, cost-effective, secure, r
        All files are ultimately stored as binary data (1's and 0's).    
        Unlike human-readable formats, bytes of binary data are not mapped to printable characters.    
        Common for unstructured data types that require interpretation by applications.    
+  -  **Optimized file formats:**    
+       Specialized for compression, indexing, efficient storage, and processing.   
+       **Common Formats:**           
+        **Avro:**
+       
+          Type: Row-based format.   
+          Header: Describes data structure stored in JSON.   
+          Storage: Binary information.   
+          Use Cases: Efficient compression, minimized storage, and network bandwidth.   
+        **ORC (Optimized Row Columnar Format):**   
+        
+          Organization: Columns rather than rows.   
+          Development: HortonWorks for Apache Hive.   
+          Structure: Stripes of data with column-wise organization.   
+          Footer: Holds statistical information for each column.   
+        **Parquet:**     
+        
+          Type: Columnar data format.   
+          Development: Cloudera and Twitter.   
+          Organization: Row groups with column-wise storage.   
+          Efficiency: Specializes in storing and processing nested data types efficiently.   
+          Features: Supports efficient compression and encoding schemes.   
+  -  
   -  
 
 
