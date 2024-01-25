@@ -14,7 +14,7 @@ Options for representing and storing data, and about typical data workloads.
   File stores   
   Databases
 ### 2. Explore file storage    
-Local file systems: Hard disk of personal computer, and on removable media such as USB drives.
+Local file systems: Hard disk of personal computer, and on removable media such as USB drives.    
 Centralized File storage: Shared, Hosted in the cloud, cost-effective, secure, reliable, can store large volumes of data.   
 - File Format Considerations:    
   - Type of data: Structured, semi-structured, or unstructured.    
@@ -30,11 +30,22 @@ Centralized File storage: Shared, Hosted in the cloud, cost-effective, secure, r
           Space-Delimited    
           Fixed-Width Data    
       **Structure:** Fields separated by commas, rows terminated by carriage return/new line.
-  -   **JavaScript Object Notation (JSON):**     
-      Definition: Hierarchical document schema.       
-      Entities: Data entities (objects) with multiple attributes.      
-      Flexibility: Suitable for structured and semi-structured data.
-      Objects are enclosed in braces ({..}) and collections are enclosed in square brackets ([..]). Attributes are represented by name : value pairs and separated by commas (,).
+  -   **JavaScript Object Notation (JSON):**
+       Definition: Hierarchical document schema.       
+       Entities: Data entities (objects) with multiple attributes.      
+       Flexibility: Suitable for structured and semi-structured data.
+       Objects are enclosed in braces ({..}) and collections are enclosed in square brackets ([..]). Attributes are represented by name : value pairs and separated by commas (,).
+## Day 2 - [01/24/2024]
+  -   **Extensible Markup Language (XML):**    
+        Type: Human-readable data format.Superseded by: JSON (less verbose).    
+        Usage: Still used in some systems for data representation.    
+  -  **Binary Large Object (BLOB):**    
+       Definition: Files stored as raw binary data.    
+       All files are ultimately stored as binary data (1's and 0's).    
+       Unlike human-readable formats, bytes of binary data are not mapped to printable characters.    
+       Common for unstructured data types that require interpretation by applications.    
+  -  
+
 
 
 
