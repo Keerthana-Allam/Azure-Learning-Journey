@@ -72,4 +72,18 @@ Centralized File storage: Shared, Hosted in the cloud, cost-effective, secure, r
           Development: Cloudera and Twitter.   
           Organization: Row groups with column-wise storage.   
           Efficiency: Specializes in storing and processing nested data types efficiently.   
-          Features: Supports efficient compression and encoding schemes.   
+          Features: Supports efficient compression and encoding schemes.
+
+Day 3 - [01/27/2024]
+Explore databases
+Database: a dedicated system for managing data records rather than files.
+1. Relational Database:
+   - used to store and query structured data 
+   - The tables are managed and queried using Structured Query Language (SQL)
+2. Non-relational databases:
+   - don’t apply a relational schema to the data
+   - NoSQL database, even though some support a variant of the SQL language.
+   - four common types of Non-relational database commonly in use.
+     1. Key-value databases in which each record consists of a unique key and an associated value
+     2. Document databases, which are a specific form of key-value database in which the value is a JSON document (which the system is optimized to parse and query)
+     3. 
